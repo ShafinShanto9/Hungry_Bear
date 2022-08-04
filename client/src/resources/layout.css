@@ -1,0 +1,118 @@
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #ff6600;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+  box-shadow: 0 0 1.5px #ccc;
+
+}
+.ant-layout-sider-dark{
+    background-color: white !important;
+}
+.ant-layout-has-sider{
+  padding: 15px !important;
+}
+.ant-layout-sider-children{
+  background-color: white !important;
+  height: 95vh !important;
+  padding: 15px 20px 15px 0;
+}
+.ant-layout-header{
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+
+.ant-menu-dark{
+  background-color: white !important;
+}
+.ant-menu-item-selected {
+   background-color: #9E6051 !important;
+   border-radius: 0 8px 8px 0;
+}
+.ant-menu-item-selected span a{
+  color: white !important;
+}
+.ant-menu-item{
+  color: black !important;
+}
+
+.ant-row-space-between{
+  justify-content: flex-start;
+}
+button{
+  background-color: #9E6051;
+  color: white;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+}
+.anticon svg {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+}
+.logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding-bottom:80px ;
+}
+.logo h3{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -15px;
+}
+.logo img{
+  width: 75px;
+  height: 75px;
+}
+.ant-menu-title-content a{
+  color: black !important; 
+}
+
+/* search box styling */
+.search-btn-styling{
+  background-color: #9E6051;
+  color: white;
+}
+.cart-count{
+  cursor: pointer
+}
+/* Loader Spinner */
+.spinner{
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.spinner-border{
+  height: 80px;
+  width: 80px;
+}
+
+.ant-layout-content{
+  height: 80vh;
+  overflow-y: scroll;
+}

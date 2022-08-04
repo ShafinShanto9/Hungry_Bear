@@ -1,0 +1,33 @@
+.bill-modal p{
+    margin: 0;
+}
+
+.bill-paper-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+ 
+}
+.bill-paper-logo h3{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -15px;
+}
+.bill-paper-logo img{
+  width: 75px;
+  height: 75px;
+}
+
+.bill-adress{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.bill-header{
+    
+}
+.border-dashed{
+    border-bottom: 2px dashed #9E6051;
+    margin: 5px 0 5px 0;
+}

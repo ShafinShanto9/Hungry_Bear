@@ -1,0 +1,41 @@
+input{
+    border: 1px solid gray !important;
+}
+
+input:focus{
+    box-shadow: none !important;
+}
+.ant-select-selector{
+    border: 1px solid gray !important;
+}
+.category{
+    margin-right: 50px;
+    padding: 10px;
+    box-shadow: 0 3px 6px rgba(149, 138, 138, 0.16), 0 3px 6px rgba(186, 166, 166, 0.23);
+    border-radius: 10px;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+}
+.card-img:hover{
+    transform: scale(1.2);
+    transition: all 1s ease-in-out;
+}
+.category h4{
+    margin-right: 25px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.select-category{
+     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* Meadia query for scrollbar hidden */
+@media only screen and (max-width: 600px) {
+.categorise{
+    overflow-x: scroll;
+    width: 100%;
+}
+
+}

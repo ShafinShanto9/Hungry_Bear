@@ -1,0 +1,34 @@
+
+.body{
+    width: 100%;
+    margin-top: 50px;
+    border: none;
+   
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    padding: 15px;
+    border-top: 1px solid #9e615175;
+    border-radius: 15px;
+   
+}
+
+.profile-image img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin-bottom: 10px;
+}
+.card-descc p{
+    margin-top: -10px;
+}
+
+
+
