@@ -11,7 +11,7 @@ const navigate = useNavigate()
     
 const onFinish = (values) => {
      dispatch({type:'showLoading'})
-     axios.post('/api/user/login', values)
+     axios.post('/api/users/login', values)
          .then((res) => {
             
             dispatch({ type: 'hideLoading' })

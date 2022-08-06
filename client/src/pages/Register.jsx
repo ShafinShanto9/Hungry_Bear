@@ -12,7 +12,7 @@ const Register = () => {
     
 const onFinish = (values) => {
      dispatch({type:'showLoading'})
-     axios.post('/api/user/register', values)
+     axios.post('/api/users/register', values)
          .then(() => {
         dispatch({type:'hideLoading'})
         message.success('Registration Successfull')
