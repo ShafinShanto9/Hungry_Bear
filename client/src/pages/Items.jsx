@@ -154,7 +154,7 @@ const Items = () => {
             <Select>
               <Select.Option value='burger' >Burger</Select.Option>
               <Select.Option value='pizza' >Pizza</Select.Option>
-              <Select.Option value='dirnks' >Drinks</Select.Option>
+              <Select.Option value='drinks' >Drinks</Select.Option>
               <Select.Option value='icecreame' >Ice-Creame</Select.Option>
             </Select>
           </Form.Item>
