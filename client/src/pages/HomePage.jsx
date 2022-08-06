@@ -22,11 +22,11 @@ const HomePage = () => {
       imageURL: 'https://i.ibb.co/z2jWQvt/Jazz-Burger.png'
     },
       {
-      name: 'Drinks',
+      name: 'drinks',
       imageURL: 'https://i.ibb.co/MDmSQmn/d6.png'
     },
        {
-      name: 'Icecreame',
+      name: 'icecreame',
       imageURL: 'https://i.ibb.co/Sd16rWr/i1.png'
     },
   ]
