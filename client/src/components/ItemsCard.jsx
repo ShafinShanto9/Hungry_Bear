@@ -1,12 +1,15 @@
 import React from 'react'
 import { ShoppingCartOutlined } from '@ant-design/icons'
 import { useDispatch } from 'react-redux'
+import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 
 const ItemsCard = ({ item }) => {
 
   const dispatch = useDispatch()
-  
+  const [cardClicked, setCartClicked] = useState(true)
+  const navigate = useNavigate()
   const addToCart = () => {
     dispatch({type:'addToCart', payload: {...item, quantity:1}})
   }
@@ -21,10 +24,17 @@ const ItemsCard = ({ item }) => {
         <h5 className="card-text">Price ${ item?.price}</h5>
     </div>
       <div>
-          <button
-            onClick={()=>addToCart()}
-          className="btn btn-primary" style={{ backgroundColor: '#9E6051', border: 'none', }}>
-           Add To Listing</button>
+          { cardClicked ? <button
+              onClick={() => {
+              addToCart()
+              setCartClicked(false)
+            }}
+            className="btn btn-primary" style={{ backgroundColor: '#9E6051', border: 'none', }}>
+            Add To Listing</button> :
+          <button onClick={()=>navigate('/cart')} className="btn btn-primary" style={{ backgroundColor: '#9E6051', border: 'none', }}>
+            View Cart</button>
+          }
+          
     </div>         
   </div>
 </div>
